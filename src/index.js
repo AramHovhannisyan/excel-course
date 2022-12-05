@@ -12,4 +12,8 @@ const excel = new Excel("#app", {
 excel.render();
 // excel.init();
 
+// setTimeout(() => {
+//   excel.destroy();
+// }, 8000);
+
 console.log('excel:', excel);
